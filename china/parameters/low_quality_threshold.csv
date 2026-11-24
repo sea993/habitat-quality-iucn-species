@@ -1,0 +1,2 @@
+scope,period,metric,operator,upper_bound,method
+China,2000-2020,HQ,<=,0.239,Upper bound of Jenks class I (Supplementary Table 6)

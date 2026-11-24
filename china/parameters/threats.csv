@@ -1,0 +1,4 @@
+THREAT,MAX_DIST,WEIGHT,DECAY,CUR_PATH
+urb,10000,1,exponential,
+crp,2000,0.25,linear,
+rr,3000,1,linear,
