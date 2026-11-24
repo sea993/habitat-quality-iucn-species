@@ -1,0 +1,54 @@
+fields_or_pattern,scope,units,definition
+HQ;mean_hq;Q_mean,both,HQ (0–1),"Modeled habitat quality, or its mean over the indicated spatial support. National land and species-equal means weight different units."
+P5;q05_hq;Q_5pct,both,HQ (0–1),Fifth percentile within each species range in the given year. Group summaries average species-specific P5 values. Global extraction uses fractional area weights.
+R_low;low_quality_pct,both,percent,"Fraction of valid range habitat below the applicable low-quality cutoff, multiplied by 100. China uses HQ <= 0.239. Global uses HQ < 0.2814."
+low_quality_pct_0239,global,percent,Global-flow sensitivity comparison using HQ <= 0.239.
+q05_hq_histogram_upper_edge,global,HQ,Upper edge of the common-land background histogram bin containing the fifth percentile.
+grid_id,China,identifier,"Unique 10-km analytical cell key in the published attribution, HQ, residual and trend tables."
+TID,China,identifier,"Original model grid identifier, linked one-to-one to grid_id in grid_key.csv. Join using the explicit keys."
+X;Y,China,metres,"Projected cell coordinates from the annual runs. WGS 84 Albers, central meridian 105 E, standard parallels 25 N and 47 N, latitude of origin 0. See grid_coordinates.prj."
+set_YEAR;Set_Type,China,label,Training or held-out test membership of each grid for the named year (Train/Test).
+id_no;Species_ID;species_id,both,identifier,"IUCN species identifier. Use with year and, globally, scope to join analytical tables."
+class;taxon;Taxon,both,group,Taxonomic group. Case and display names can differ between source tables.
+category;IUCN_clean,both,group,"LC, NT, VU, EN or CR. Threatened comprises VU, EN and CR."
+valid_years;included,China,years; boolean,Number of annual valid exposure records and inclusion in the complete 21-year analytical cohort.
+province_code;EN,China,identifier,Province abbreviation in figure tables. 266 mapped grids have no assigned province. EN in category fields means Endangered.
+year;Year,both,calendar year,Annual observations cover 2000 through 2020 inclusive.
+NDVI,China,predictor,Annual maximum Normalized Difference Vegetation Index.
+GDP,China,predictor,Gridded total gross domestic product at purchasing power parity in 2017 international dollars.
+PRE;TMP,China,predictors,Annual precipitation and annual mean temperature derived from monthly records.
+POP,China,people per valid source cell,Annual mean population count per valid 30-arc-second LandScan cell inside each 10-km analysis grid. Fig. 7 displays 2020 people per original cell above 200.
+CE,China,predictor,Gridded fossil-fuel carbon dioxide emissions (ODIAC).
+HFI,China,predictor,Annual terrestrial Human Footprint Index used for attribution.
+DEM;SLOPE,China,predictors,"Elevation and terrain slope. Static model-input fields, with year-specific attributions."
+GSL;WSDI;CSDI,China,predictors,"Growing season length, warm spell duration index and cold spell duration index."
+driverYYYY;DEM_YYYY;SLOPE_YYYY,China shap,prediction units,Local signed SHAP contributions; year suffix identifies the annual model. Model-input columns with similar names hold predictor values.
+Mean_signed_SHAP;Mean_absolute_SHAP,China,prediction units,"Arithmetic mean of signed contributions or of their absolute magnitudes across the 96,649 grids."
+Annual_absolute_contribution_percent,China,percent,"Mean absolute contribution of one driver divided by the sum of the 12 driver means for the same year, times 100."
+ANCI;APCI,China,percent,"Magnitude of negative or positive contributions of HFI, POP, GDP and CE, respectively, divided by the sum of absolute SHAP across all 12 drivers plus 1e-6, times 100."
+ANCI_change;ANCI_delta;APCI_delta,China,percentage points,Value in 2020 minus value in 2000. Relative change divides the difference by the 2000 value and multiplies by 100.
+Observed;Predicted;residual_YEAR,China,HQ,"InVEST HQ, model prediction and their difference (Observed minus Predicted). Residuals refer to the annual prediction run."
+slope_per_year;slope_se;ci95_lower;ci95_upper,China,HQ/year,"Annual OLS slope for a cell, its standard error and pointwise 95% t interval (19 residual degrees of freedom)."
+p_value,China grid trends,probability,"Two-sided unadjusted OLS slope test. The archive records blank p values for 1,292 constant series."
+period_mean;*_period_mean,China,metric units,"Mean of a species' annual values over the study period, subsequently summarized across eligible species."
+n;n_valid;n_species;SEM,both,count; metric units,Sample size for the specified grouping; SEM is the sample SD divided by the square root of n.
+H;df;p_raw,China rank tests,statistic; df; probability,"Tie-corrected Kruskal–Wallis statistic, degrees of freedom and unadjusted p value."
+rank_eta_squared,China,fraction,"Rank eta squared for the Kruskal–Wallis H test: max(0,(H-k+1)/(n-k)), where k is the number of groups. Historical field epsilon_squared has the same stored values."
+statistic;effect,China pairwise tests,test-dependent,"Welch t and group 1 minus group 2 mean difference, or Mann–Whitney U for group 1 and rank-biserial effect 2U/(n1*n2)-1."
+p_BH,China,probability,Benjamini–Hochberg adjustment among pairwise comparisons within the same metric and grouping variable.
+ci_low;ci_high,China,effect units,Pointwise 95% effect limits: Welch t interval or stratified species percentile bootstrap for rank effects.
+tau;mk_p,China,dimensionless; probability,Mann–Kendall trend statistic expressed as tau and two-sided tie- and continuity-corrected p value.
+slope_per_decade;sen_slope_per_decade,China,metric units/decade,OLS or Sen slope across the 21 annual aggregate values. Low-quality area changes are in percentage points.
+moran_i_train;moran_i_test;p_value_max_train_test,China,diagnostic,Spatial autocorrelation of train and test residuals. The OLS/RF model-comparison reference reports the larger permutation p of the two sets.
+THREAT;MAX_DIST;WEIGHT;DECAY,China,code; metres; weight; kernel,"Built-up (urb), cropland (crp), transport (rr). Archived distances in metres are converted to km for InVEST 3.14.2."
+rr,China,threat,"Road and railway infrastructure rasterized at 300 m; ordinary roads use the 1993 baseline for 2000–2012, with annual updates for 2013–2020."
+rr,global,threat,GRIP4 road network held fixed throughout 2000–2020.
+lulc;esa_code;HABITAT;urb;crp;rr,both parameters,code or score,"Land-cover class, suitability, and class-specific sensitivities to built-up land, cropland and transport; interpret columns by file."
+scope;group,global,spatial support; species set,Global includes China; other scopes are China and individual realms. The species group is all eligible or threatened species.
+valid_area_km2;intersecting_cells,global,km2; count,"Common-valid within-range area including fractional cell overlaps, and number of intersecting cells."
+mean_hq_slope;q05_hq_slope,global,HQ/year,"OLS slope of the 21 annual species-range means or fifth percentiles, on fixed spatial support."
+low_quality_pct_slope,global,percentage points/year,OLS rate of change in the within-range share below the global cutoff.
+estimate;ci95_low;ci95_high,global,metric-specific,Equal-species estimate and 95% whole-species bootstrap limits for the named effect or trajectory.
+change_from_2000;change_ci95_low;change_ci95_high,global,metric units,Each year's estimate minus its 2000 value and paired-trajectory bootstrap limits.
+counts;baseline;slope;extent,global figure grid,cells; HQ; HQ/year; metres,"Display-grid support in underlying valid 1-km cells, 2000 HQ, annual HQ trend and Mollweide bounds. Reprojected with nearest-neighbour sampling for Fig. 4."
+mean_hfp;hfp_change,global,Human Footprint units,Auxiliary within-range Human Footprint endpoint means on common support and their 2020 minus 2000 difference.

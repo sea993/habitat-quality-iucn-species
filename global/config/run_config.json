@@ -1,0 +1,72 @@
+{
+  "years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "pixel_size_m": 1000,
+  "geographic_tile_degrees": 6,
+  "buffer_m": 15000,
+  "global_crs": "ESRI:54009",
+  "global_bounds": [
+    -18041000,
+    -9021000,
+    18041000,
+    9021000
+  ],
+  "half_saturation_constant": 0.5,
+  "invest_version": "3.14.2",
+  "workers": 8,
+  "species_workers": 8,
+  "scratch_backend": "disk",
+  "gdal_cache_mb_per_worker": 256,
+  "minimum_free_disk_gb": 30,
+  "global_includes_china": true,
+  "roads_fixed_all_years": true,
+  "bootstrap_replicates": 2000,
+  "random_seed": 20261117,
+  "jenks_classes": 5,
+  "jenks_histogram_bins": 10000,
+  "comparison_low_quality_threshold": 0.239,
+  "esa_archives": "ESA-Land-Cover",
+  "roads": "GRIP4/GRIP4_GlobalRoads.gdb",
+  "species_root": "IUCN",
+  "land_boundaries": "boundaries/world.shp",
+  "ecoregions": "ecoregions/Ecoregions2017.shp",
+  "hfp_root": "HFP",
+  "threats": {
+    "urb": {
+      "distance_m": 10000,
+      "weight": 1.0,
+      "decay": "exponential"
+    },
+    "crp": {
+      "distance_m": 2000,
+      "weight": 0.25,
+      "decay": "linear"
+    },
+    "rr": {
+      "distance_m": 3000,
+      "weight": 1.0,
+      "decay": "linear"
+    }
+  }
+}

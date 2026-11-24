@@ -1,0 +1,7 @@
+{
+  "no_threat_forest_max_error": 0.0,
+  "urban_5km_observed": 0.9899473786354065,
+  "urban_5km_expected": 0.989947359840823,
+  "beyond_10km_hq": 1.0,
+  "status": "passed"
+}

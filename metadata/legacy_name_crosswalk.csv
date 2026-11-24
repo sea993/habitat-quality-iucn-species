@@ -1,0 +1,57 @@
+kind,legacy_name,current_name,note
+main figure,CB Fig. 1,Fig. 6,Final npj Biodiversity numbering
+main figure,CB Fig. 2,Fig. 7,Final npj Biodiversity numbering
+main figure,CB Fig. 3,Fig. 1,Final npj Biodiversity numbering
+main figure,CB Fig. 4,Fig. 2,Final npj Biodiversity numbering
+main figure,CB Fig. 5,Fig. 3,Final npj Biodiversity numbering
+main figure,CB Fig. 6,Fig. 5,Final npj Biodiversity numbering
+main figure,Global extension (no CB counterpart),Fig. 4,Panels a–f
+archive file,Fig_3b_grid_trends.csv,china/figure_data/Fig_1b_grid_trends.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Fig_3_grid_annual_HQ.csv,china/figure_data/Fig_1_grid_annual_HQ.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Fig_S5b_annual_residual_tests.csv,china/shap/Annual_Residual_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Fig_S5_annual_residual_tests.csv,china/shap/Annual_Residual_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Fig_S3_OLS_RF_residual_diagnostics.csv,china/statistics/Model_Diagnostics.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S4_residual_tests.csv,china/statistics/Multiscale_Evaluation.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S9_tests.csv,china/statistics/KruskalWallis_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S10_tests.csv,china/statistics/Welch_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S11_tests.csv,china/statistics/MannWhitney_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S15_annual_trend_tests.csv,china/statistics/Annual_Trend_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S10A_Welch.csv,china/statistics/Welch_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S10B_MannWhitney.csv,china/statistics/MannWhitney_Tests.csv,See source_manifest.csv for contents and current manuscript item
+archive file,Table_S12_and_Figure_S9.csv,china/figure_data/Table_11_and_Figure_S9.csv,See source_manifest.csv for contents and current manuscript item
+archive file,S13_original.csv,china/statistics/annual_trend_source.csv,See source_manifest.csv for contents and current manuscript item
+archive file,S13_annual_analysis_input.csv,china/statistics/annual_trend_series.csv,See source_manifest.csv for contents and current manuscript item
+archive file,S4_source.csv,china/statistics/multiscale_model_metrics.csv,See source_manifest.csv for contents and current manuscript item
+archive file,huigui_V2.xlsx,china/model_inputs/huigui_V2.parquet,See source_manifest.csv for contents and current manuscript item
+archive file,huigui_v2.prj,china/model_inputs/grid_coordinates.prj,See source_manifest.csv for contents and current manuscript item
+archive file,global_config.json,global/config/run_config.json,See source_manifest.csv for contents and current manuscript item
+archive file,Figure4_national_annual_mean.csv,china/statistics/annual_national.csv,See source_manifest.csv for contents and current manuscript item
+archive file,figure5a_species_display_order.csv,china/figure_data/Fig_3_species_order.csv,See source_manifest.csv for contents and current manuscript item
+archive file,figure5a_group_mean_sem.csv,china/figure_data/Fig_3_group_mean_sem.csv,See source_manifest.csv for contents and current manuscript item
+archive file,S5_residuals.csv,china/shap/annual_grid_residuals.parquet,See source_manifest.csv for contents and current manuscript item
+terminology or item,Fig_3b,Fig_1b,"Historical manuscript, software or archive label"
+terminology or item,S10A,Supplementary Data 1 / Welch_Tests,"Historical manuscript, software or archive label"
+terminology or item,S10B,Supplementary Data 1 / MannWhitney_Tests,"Historical manuscript, software or archive label"
+terminology or item,S13 (annual trend table),Supplementary Table 13 / Annual_Trend_Tests,"Historical manuscript, software or archive label"
+terminology or item,Supplementary Data S1,Supplementary Data 1,"Historical manuscript, software or archive label"
+terminology or item,ASEI,ANCI,"Historical manuscript, software or archive label"
+terminology or item,PAC,APCI,"Historical manuscript, software or archive label"
+terminology or item,ASEI_YYYY / PAC_YYYY,ANCI / APCI by year,"Historical manuscript, software or archive label"
+terminology or item,epsilon_squared,rank_eta_squared,"Historical manuscript, software or archive label"
+terminology or item,eta_squared_H,rank_eta_squared,"Historical manuscript, software or archive label"
+terminology or item,plot_global_hq_signed_slopes: Global_habitat_quality_signed_slopes,Fig_4,"Historical manuscript, software or archive label"
+terminology or item,Figure 3 ridge rendering; Figure 4 and Figure 5 China renderings,plot_figure1.R; plot_figure2.R; plot_figure3.R,"Historical manuscript, software or archive label"
+figure source,annual_means_and_fitted_CI.csv,china/figure_data/Fig_1_annual_means_and_fitted_CI.csv,China plotting archive
+figure source,province_means.csv,china/figure_data/Fig_1_province_means.csv,China plotting archive
+figure source,ridge_density.csv,china/figure_data/Fig_1_ridge_density.csv,China plotting archive
+figure source,ridge_summaries.csv,china/figure_data/Fig_1_ridge_summaries.csv,China plotting archive
+figure source,figure4_annual_all_species.csv,china/figure_data/Fig_2_annual_all_species.csv,China plotting archive
+figure source,figure4_annual_group_summaries.csv,china/figure_data/Fig_2_annual_group_summaries.csv,China plotting archive
+figure source,figure4_crossclassified_means.csv,china/figure_data/Fig_2_crossclassified_means.csv,China plotting archive
+figure source,derived_relative_change.csv,china/figure_data/Fig_2_derived_relative_change.csv,China plotting archive
+figure source,figure4_group_endpoint_proportions.csv,china/figure_data/Fig_2_group_endpoint_proportions.csv,China plotting archive
+figure source,raincloud_raw_quantiles.csv,china/figure_data/Fig_2_raincloud_raw_quantiles.csv,China plotting archive
+figure source,figure4_species_period_means.csv,china/figure_data/Fig_2_species_period_means.csv,China plotting archive
+figure source,maps_inputs.rds (TID and index means),china/figure_data/Fig_3_grid_mean_indices.csv,China plotting archive
+figure source,maps_province_ANCI.csv,china/figure_data/Fig_3_maps_province_ANCI.csv,China plotting archive
+figure source,maps_province_APCI.csv,china/figure_data/Fig_3_maps_province_APCI.csv,China plotting archive
