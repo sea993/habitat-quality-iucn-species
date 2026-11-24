@@ -1,0 +1,150 @@
+relative_path,scope,size_bytes,description,manuscript_items
+china/figure_data/China_10km_plot_grid.rds,china,3795322,"Mapped analysis-cell outlines and TID only, shared by both China maps (WGS 84 geography).",Figs. 1 and 3
+china/figure_data/Fig_1_annual_means_and_fitted_CI.csv,china,2049,China plotting data: annual means and fitted CI.,Fig. 1
+china/figure_data/Fig_1_grid_annual_HQ.csv,china,24727456,China plotting data: grid annual HQ.,Fig. 1; Supplementary Fig. 6
+china/figure_data/Fig_1_province_means.csv,china,911,China plotting data: province means.,Fig. 1; Supplementary Table 7
+china/figure_data/Fig_1_ridge_density.csv,china,127801,China plotting data: ridge density.,Fig. 1
+china/figure_data/Fig_1_ridge_summaries.csv,china,376,China plotting data: ridge summaries.,Fig. 1
+china/figure_data/Fig_1b_grid_trends.csv,china,12752437,"Single 96,649-grid OLS trend and confidence-interval table, archived as Fig_3b_grid_trends.csv.",Fig. 1b; Supplementary Data 1 (SI S25 and Excel README)
+china/figure_data/Fig_2_annual_all_species.csv,china,3487,China plotting data: annual all species.,Fig. 2
+china/figure_data/Fig_2_annual_group_summaries.csv,china,50925,China plotting data: annual group summaries.,Fig. 2
+china/figure_data/Fig_2_crossclassified_means.csv,china,2814,China plotting data: crossclassified means.,Fig. 2d; Supplementary Table 11
+china/figure_data/Fig_2_derived_relative_change.csv,china,4575,China plotting data: derived relative change.,Fig. 2
+china/figure_data/Fig_2_group_endpoint_proportions.csv,china,5724,China plotting data: group endpoint proportions.,Fig. 2
+china/figure_data/Fig_2_raincloud_raw_quantiles.csv,china,712,China plotting data: raincloud raw quantiles.,Fig. 2
+china/figure_data/Fig_2_species_period_means.csv,china,384185,China plotting data: species period means.,"Fig. 2; Supplementary Tables 8, 10 and 11"
+china/figure_data/Fig_3_grid_mean_indices.csv,china,3698264,China plotting data: grid mean indices.,Fig. 3c–d; Supplementary Fig. 12
+china/figure_data/Fig_3_group_mean_sem.csv,china,7308,China plotting data: group mean sem.,Fig. 3
+china/figure_data/Fig_3_maps_province_ANCI.csv,china,882,China plotting data: maps province ANCI.,Fig. 3
+china/figure_data/Fig_3_maps_province_APCI.csv,china,883,China plotting data: maps province APCI.,Fig. 3
+china/figure_data/Fig_3_species_order.csv,china,22708,China plotting data: species order.,Fig. 3
+china/figure_data/Figure_S10_direction_counts.csv,china,204,China figure source: direction counts.,Supplementary Fig. 10
+china/figure_data/Figure_S10_histogram_bins.csv,china,7646,China figure source: histogram bins.,Supplementary Fig. 10
+china/figure_data/Figure_S10_species_slopes.csv,china,675739,China figure source: species slopes.,Supplementary Fig. 10
+china/figure_data/Figure_S11_group_mean_SEM.csv,china,3124,China figure source: group mean SEM.,Supplementary Fig. 11
+china/figure_data/Figure_S11_paired_species.csv,china,287565,China figure source: paired species.,Fig. 3a–b; Supplementary Fig. 11
+china/figure_data/Figure_S13_fitted_curves.csv,china,326612,China figure source: fitted curves.,Supplementary Fig. 13
+china/figure_data/Figure_S13_summary.csv,china,1980,China figure source: summary.,Supplementary Fig. 13
+china/figure_data/Figure_S2_class_shares.csv,china,2452,China figure source: class shares.,Supplementary Fig. 2
+china/figure_data/Figure_S4_source_version_comparison.csv,china,1181,China figure source: source version comparison.,Supplementary Fig. 4
+china/figure_data/Figure_S8_source.csv,china,23831,China figure source: source.,Supplementary Fig. 8
+china/figure_data/GWRF_annual_metrics_as_stored.csv,china,2449,GWRF annual metrics as stored.,Supplementary Fig. 5
+china/figure_data/GWRF_metrics_recomputed_from_predictions.csv,china,6197,GWRF metrics recomputed from predictions.,Supplementary Fig. 5
+china/figure_data/GWRF_SHAP_batch_comparison_metrics.csv,china,8873,GWRF SHAP batch comparison metrics.,Supplementary Fig. 5 and 8
+china/figure_data/model_comparison_yearly.csv,china,3084,model comparison yearly.,Supplementary Fig. 3
+china/figure_data/S13_CE_density.csv,china,377876,CE binned predictor–attribution counts.,Supplementary Fig. 13
+china/figure_data/S13_CE_extent.json,china,191,"CE plotting extent, bin widths and displayed count.",Supplementary Fig. 13
+china/figure_data/S13_GDP_density.csv,china,297762,GDP binned predictor–attribution counts.,Supplementary Fig. 13
+china/figure_data/S13_GDP_extent.json,china,191,"GDP plotting extent, bin widths and displayed count.",Supplementary Fig. 13
+china/figure_data/S13_HFI_density.csv,china,845018,HFI binned predictor–attribution counts.,Supplementary Fig. 13
+china/figure_data/S13_HFI_extent.json,china,190,"HFI plotting extent, bin widths and displayed count.",Supplementary Fig. 13
+china/figure_data/S13_POP_density.csv,china,368064,POP binned predictor–attribution counts.,Supplementary Fig. 13
+china/figure_data/S13_POP_extent.json,china,198,"POP plotting extent, bin widths and displayed count.",Supplementary Fig. 13
+china/figure_data/S1_All_species.rds,china,1202152,"5-km display table of aggregated richness (x, y, value) for All species.",Fig. 7; Supplementary Fig. 1
+china/figure_data/S1_Amphibians.rds,china,863519,"5-km display table of aggregated richness (x, y, value) for Amphibians.",Fig. 7; Supplementary Fig. 1
+china/figure_data/S1_Mammals.rds,china,1111551,"5-km display table of aggregated richness (x, y, value) for Mammals.",Fig. 7; Supplementary Fig. 1
+china/figure_data/S1_Plants.rds,china,1026325,"5-km display table of aggregated richness (x, y, value) for Plants.",Fig. 7; Supplementary Fig. 1
+china/figure_data/S1_raster_summary.csv,china,1469,Native richness and roster summary by group.,Fig. 7; Supplementary Fig. 1
+china/figure_data/S1_Reptiles.rds,china,989004,"5-km display table of aggregated richness (x, y, value) for Reptiles.",Fig. 7; Supplementary Fig. 1
+china/figure_data/S1_Threatened.rds,china,1010147,"5-km display table of aggregated richness (x, y, value) for Threatened.",Fig. 7; Supplementary Fig. 1
+china/figure_data/S5_annual_moran.csv,china,1318,Test-set diagnostics plotted for the annual prediction run.,Supplementary Fig. 5
+china/figure_data/Table_11_and_Figure_S9.csv,china,3137,Shared China group/province source statistics.,Supplementary Table 11; Supplementary Fig. 9
+china/figure_data/Table_S14_and_Figure_S12.csv,china,1739,Shared China group/province source statistics.,Supplementary Table 14; Supplementary Fig. 12
+china/figure_data/Table_S7_and_Figure_S7.csv,china,3290,Shared China group/province source statistics.,Supplementary Table 7; Supplementary Fig. 7
+china/model_inputs/annual_splits.csv,china,12803306,"One row per grid, with verified train/test membership for all 21 years.",Supplementary Table 4; Supplementary Figs. 3 and 5
+china/model_inputs/grid_coordinates.prj,china,413,"ESRI WKT for China grid coordinates (WGS 84 Albers, metres).",Figs. 1 and 3
+china/model_inputs/grid_key.csv,china,3994466,"One-to-one crosswalk between analytical grid_id, original TID and projected coordinates.","Figs. 1 and 3; Supplementary Figs. 2, 5, 6, 8 and 13"
+china/model_inputs/huigui_V2.parquet,china,142181178,"Losslessly selected numeric predictors, HQ targets, TID and X/Y from the training workbook in original row order; 236 columns.","Fig. 3; Supplementary Figs. 2–5, 8 and 13"
+china/parameters/annual_vif.csv,china,9230,Variance inflation factor by predictor and year at source precision.,Supplementary Table 5
+china/parameters/low_quality_threshold.csv,china,130,Fixed China-domain Jenks class I upper bound and inclusive comparison.,Fig. 2; Supplementary Table 6
+china/parameters/retained_drivers.csv,china,683,Final SI screening decisions and reported range and mean VIF.,Supplementary Table 5
+china/parameters/sensitivity.csv,china,254,China land-cover suitability and threat-specific sensitivities.,Fig. 6; Supplementary Table 2
+china/parameters/species_screening.csv,china,87790,"One record per source species, valid-year count and inclusion flag; 1,830 source species and 1,820 analyzed.","Figs. 2, 3 and 7; Supplementary Table 1; Supplementary Fig. 1"
+china/parameters/threats.csv,china,103,"China transport, cropland and urban threat distances in metres, weights and decay kernels.",Fig. 6; Supplementary Table 3
+china/scripts/01_species_richness_rasterization.py,china,2512,Upstream species-richness rasterization using a supplied aligned template and licensed range records.,Fig. 7; Supplementary Fig. 1
+china/scripts/02_run_invest_habitat_quality.py,china,5036,Annual China InVEST entry point for externally supplied land cover and aligned threat rasters.,"Figs. 1, 2 and 6; Supplementary Tables 2 and 3"
+china/scripts/03_extract_species_habitat_exposure.py,china,5228,"Extract per-species annual mean, P5 and percentage at or below 0.239 from supplied rasters and ranges.","Fig. 2; Supplementary Tables 6, 8 and 10–13"
+china/scripts/anthropogenic_indices.py,china,1145,"Rebuild both attribution indices across all 2,029,629 China grid-years.",Fig. 3; Supplementary Figs. 11 and 12; Supplementary Table 14
+china/scripts/figure3_maps.R,china,6081,Draw the mean index maps and province distribution insets.,Fig. 3c–d
+china/scripts/figure3_species.R,china,9405,Draw paired species tracks and taxon-by-category endpoint means and SEM.,Fig. 3a–b
+china/scripts/figure_text.R,china,710,Shared text-colour styles for R figure rendering.,Figs. 2 and 3
+china/scripts/gwrf_shap_annual.py,china,17810,Fit the later annual GWRF configuration and export local model predictions and TreeSHAP results.,Fig. 3; Supplementary Figs. 2–5 and 8
+china/scripts/merge_annual_shap.py,china,1547,"Combine 21 refit exports by matched projected coordinates, retaining valid cell identities.",Fig. 3; Supplementary Fig. 8
+china/scripts/plot_figure1.R,china,9512,Render original China national mean HQ and trend maps with distribution insets.,Fig. 1
+china/scripts/plot_figure2.R,china,14924,"Render original annual, group, cross-classified and direction panels.",Fig. 2
+china/scripts/plot_figure3.R,china,1632,Render original species and grid attribution panels with provincial insets.,Fig. 3
+china/scripts/shap_data.py,china,1198,"Shared manuscript matrix reader with key, finiteness and driver/year checks.",Fig. 3; Supplementary Fig. 8
+china/scripts/summarize_shap.py,china,1334,"Rebuild 252 annual driver rows, signed and absolute means, percentage contributions and ranks.",Supplementary Fig. 8
+china/shap/annual_grid_residuals.parquet,china,19641601,"All 21 residual fields from the annual prediction archive, aligned to grid_id; residual = observed HQ minus prediction.",Supplementary Fig. 5; Supplementary Data 1
+china/shap/Annual_Residual_Tests.csv,china,898,Annual training/test residual Moran statistics and permutation p values in the final workbook.,Supplementary Fig. 5; Supplementary Data 1
+china/shap/Manuscript_grid_SHAP_2000_2020.csv,china,295506311,"January 20 manuscript attribution matrix. 96,649 grids and 252 driver-year columns.","Fig. 3; Supplementary Figs. 2, 8 and 11–13"
+china/statistics/annual_groups.csv,china,91372,"Annual species-equal group means, between-species SD and roster/valid counts.",Fig. 2; Supplementary Tables 12 and 13
+china/statistics/annual_national.csv,china,1093,"National 10-km grid count, equal-grid mean HQ and SD by year; shared with the Fig. 2 plot.",Figs. 1 and 2; Supplementary Tables 12 and 13
+china/statistics/annual_trend_series.csv,china,17121,Archived input by zero-based row of annual_trend_source.csv and year; 31 series of 21 values.,Supplementary Table 13
+china/statistics/annual_trend_source.csv,china,6879,"Group-level endpoints, changes, metric codes and full-precision decade slopes.",Supplementary Tables 12 and 13
+china/statistics/Annual_Trend_Tests.csv,china,6625,"31 final annual trend tests, OLS and Sen slopes and intervals, and Mann–Kendall results.",Supplementary Table 13; Supplementary Data 1
+china/statistics/bootstrap_pairwise.py,china,4460,Recompute stratified Mann–Whitney effect intervals and annual trend fits.,Supplementary Data 1; Supplementary Table 13
+china/statistics/bootstrap_table9.R,china,4118,"Stratified percentile bootstrap of rank eta squared with 10,000 resamples per grouping.",Supplementary Table 9; Supplementary Data 1
+china/statistics/KruskalWallis_Tests.csv,china,1722,12 final omnibus tests with rank_eta_squared and bootstrap confidence limits.,Supplementary Table 9; Supplementary Data 1
+china/statistics/MannWhitney_Tests.csv,china,16903,"96 final Mann–Whitney tests with rank-biserial effects, BH adjustment and bootstrap intervals.",Supplementary Data 1
+china/statistics/Model_Diagnostics.csv,china,2298,Archived OLS and RF train/test residual diagnostics. P field stores the larger of the two permutation p values.,Supplementary Fig. 3; Supplementary Data 1
+china/statistics/Multiscale_Evaluation.csv,china,198,"Residual Moran statistics for training and test sets at 5, 10 and 20 km.",Supplementary Table 4; Supplementary Data 1
+china/statistics/multiscale_model_metrics.csv,china,491,"Original scale-specific performance, bandwidth, total grid count and residual tests.",Supplementary Table 4
+china/statistics/reproduce_statistics.py,china,6097,"Recompute and check rank tests, Welch tests, annual trend fits and stored residual diagnostics.","Supplementary Tables 4, 9 and 13; Supplementary Data 1"
+china/statistics/species.csv,china,189904,"1,820 complete species records with the six responses used for group comparisons.",Supplementary Tables 8–11; Supplementary Data 1
+china/statistics/species_habitat_summaries.csv,china,540739,"Source roster, valid years and period/endpoint HQ metrics; also supplies the original-China species bridge.","Figs. 2 and 4; Supplementary Tables 1, 8, 10 and 11"
+china/statistics/Welch_Tests.csv,china,8825,"48 final Welch tests with mean differences, degrees of freedom and pointwise confidence limits.",Supplementary Data 1
+global/config/esa_landcover_crosswalk.csv,global,4434,"ESA classes mapped to original habitat parameters, mixture rules and threat flags.",Fig. 4
+global/config/esa_source_metadata.json,global,12051,"NetCDF dimensions, classification metadata and provenance for three inspected years.",Fig. 4
+global/config/model_validation_reference.json,global,181,"Archived analytic no-threat, urban-distance and cutoff checks for the global model.",Fig. 4
+global/config/original_parameters.csv,global,286,Original land-use class habitat and threat sensitivities for the global crosswalk.,Fig. 4
+global/config/parameters.md,global,4318,"Parameter provenance, raw input contracts, production dependencies and overrides.",Figs. 4 and 6; Supplementary Tables 2 and 3
+global/config/run_config.json,global,1431,"Portable production configuration, grid, distances, source fields, seed and bootstrap settings.",Fig. 4
+global/config/sensitivity_invest3142.csv,global,2015,InVEST 3.14.2 sensitivity table keyed by ESA land-cover code.,Fig. 4
+global/figure_data/bivariate_hq_display_grid.npz,global,13771637,"10-km common-valid display blocks with counts, baseline HQ, slopes and extent.",Fig. 4a
+global/figure_data/earth_footprint.parquet,global,19914,Equal Earth projected globe outline (WKB).,Fig. 4a
+global/figure_data/un_boundaries_equal_earth.parquet,global,890841,Simplified UN boundary lines in Equal Earth with line-style code bdytyp.,Fig. 4a
+global/figure_data/un_land_equal_earth.parquet,global,876375,Simplified UN land polygons used for map context and uncovered land.,Fig. 4a
+global/scripts/compare_china_rosters.py,global,2761,Classify differences between the original China sample and the global workflow.,Fig. 4
+global/scripts/figure4_layout.py,global,19539,"Equal Earth map projection, legend placement, colour encoding and individual panels.",Fig. 4
+global/scripts/finalize_global_tables.py,global,5012,Verify full production SQLite results and derive sample composition and matched-China comparisons.,Fig. 4
+global/scripts/global_background.py,global,6288,Construct common-support annual land histograms and pooled Jenks breaks.,Fig. 4
+global/scripts/global_common.py,global,7017,"Resolve inputs and outputs, set up the grid and provide shared GIS I/O.",Fig. 4
+global/scripts/global_hfp_support.py,global,10209,Harmonize paired ancillary HFP endpoints.,Fig. 4
+global/scripts/global_prepare.py,global,5923,Build land and realm masks and ownership of production tiles.,Fig. 4
+global/scripts/global_rasters.py,global,12211,Execute annual tiled InVEST calculations and assemble the production land grid.,Fig. 4
+global/scripts/global_species.py,global,13917,Screen and intersect permitted ranges with common-valid land using fractional cell areas.,Fig. 4
+global/scripts/global_species_worker.py,global,2959,"Calculate independent per-species, per-year range summaries.",Fig. 4
+global/scripts/global_statistics.py,global,10608,"Compute original equal-species trends, effects and bootstrap uncertainty in a full upstream run.",Fig. 4
+global/scripts/plot_global_hq_signed_slopes.py,global,9816,Render all six Fig. 4 panels from distributed tables and display layers.,Fig. 4
+global/scripts/run_global.py,global,2529,Run the upstream workflow with externally supplied spatial products.,Fig. 4
+global/scripts/spatial_rules.py,global,1644,"Land-cover mixtures, distance units, species screening and weighted quantiles.",Fig. 4
+global/scripts/summarize_global_results.py,global,2835,Independently derive published global contrasts from the released species-year observations.,Fig. 4
+global/scripts/tests/test_global_analysis.py,global,2275,Upstream numerical unit tests for global analysis.,Fig. 4
+global/scripts/tests/test_global_rules.py,global,1344,Upstream numerical unit tests for global rules.,Fig. 4
+global/scripts/tests/test_hfp_support.py,global,1353,Upstream numerical unit tests for hfp support.,Fig. 4
+global/scripts/tests/test_spatial_fraction.py,global,955,Upstream numerical unit tests for spatial fraction.,Fig. 4
+global/scripts/tests/test_spatial_rules.py,global,1546,Upstream numerical unit tests for spatial rules.,Fig. 4
+global/scripts/tests/test_weighted_range_quantile.py,global,1541,Upstream numerical unit tests for weighted range quantile.,Fig. 4
+global/scripts/validate_global_model.py,global,2640,"Check distance assumptions, parameter agreement and buffer convergence on a reference tile.",Fig. 4
+global/scripts/weighted_range_quantile.py,global,1185,Exact area-weighted quantile calculation for large species ranges.,Fig. 4
+global/tables/background_annual.csv,global,24843,"Common-land annual HQ, histogram P5 and low-quality shares by scope.",Fig. 4
+global/tables/background_histograms.npz,global,1781861,Annual common-land HQ histograms with years and scopes.,Fig. 4
+global/tables/china_cohort_match_status.csv,global,97427,Source-screening and common-land status for the original China roster.,Fig. 4 (auxiliary comparison)
+global/tables/china_matched_species_comparison.csv,global,753427,Species-level original-China and global-flow slopes on matched IDs.,Fig. 4 (auxiliary comparison)
+global/tables/china_three_metric_bridge.csv,global,729,"Paired comparison of mean HQ, P5 and low-quality slopes in 1,528 matched species.",Fig. 4 (auxiliary comparison)
+global/tables/final_sample_composition.csv,global,351,Global analytical species counts by taxon and Red List category.,Fig. 4
+global/tables/global_low_quality_threshold.json,global,753,Global pooled Jenks breaks and common-support diagnostics.,Fig. 4
+global/tables/global_species_screened.csv,global,2178592,"Screened species roster with IDs, taxon, category and source basenames.",Fig. 4
+global/tables/group_annual_trajectories.csv,global,1611242,Species-equal annual levels and paired baseline changes with bootstrap intervals.,Fig. 4
+global/tables/group_effects_ci.csv,global,236533,"Group-level slopes, contrasts and species-bootstrap confidence intervals.",Fig. 4
+global/tables/hfp_auxiliary_correlations.csv,global,402,Auxiliary Human Footprint versus HQ change associations.,Fig. 4 (auxiliary comparison)
+global/tables/hfp_hq_species_comparison.csv,global,7206952,Species-level paired HFP endpoints and global HQ change metrics.,Fig. 4 (auxiliary comparison)
+global/tables/species_analysis_status.csv,global,1617953,Extraction outcome and area diagnostics per screened species.,Fig. 4
+global/tables/species_annual_metrics.csv,global,253652765,"Annual species-by-scope observations, fractional support and HQ metrics.",Fig. 4
+global/tables/species_hfp_endpoints.csv,global,2962461,Species-level area-weighted HFP endpoint observations and valid area.,Fig. 4 (auxiliary comparison)
+global/tables/species_slopes.csv,global,15235023,Per-species signed annual OLS slopes and endpoint changes by scope.,Fig. 4
+metadata/field_dictionary.csv,metadata,7860,"Definitions, units, support, time scale and field variants used in the released tables.",All manuscript items
+metadata/legacy_name_crosswalk.csv,metadata,6721,"Mapping of legacy figure numbers, data files, worksheet and effect labels to the final manuscript.",All manuscript items
+README.md,package,5850,"Reviewer instructions, verified outcomes, batch provenance and upstream requirements.",All manuscript items
+source_manifest.csv,package,21332,"Inventory of every distributed file, including this CSV; sizes are uncompressed bytes.",All manuscript items

@@ -1,0 +1,27 @@
+# Derived data distributed on Figshare
+/china/figure_data/
+/china/model_inputs/
+/china/shap/
+/china/statistics/*
+!/china/statistics/*.py
+!/china/statistics/*.R
+/global/tables/
+/global/figure_data/
+*.parquet
+*.rds
+*.tif
+*.tiff
+*.xlsx
+*.zip
+
+# Local environments, caches and outputs
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.Rhistory
+.RData
+.Rproj.user/
+review-output/
+.DS_Store
+Thumbs.db
